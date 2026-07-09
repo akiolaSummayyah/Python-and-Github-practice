@@ -1,5 +1,10 @@
 print("Hello there!")
 name=input("Enter your name:")
-print("Hello to You"  + name)
+print("Hello to You "  + name)
 age=input("Enter your age:")
-print(f"You are {age} years old.")
+print("You are " + age + " years old.")
+favorite_color=input("Enter your favorite color:")
+favorite_animal=input("Enter your favorite animal:")
+piratename=" Miss fearless" + favorite_color + " " + favorite_animal
+print("Your favorite color is " + favorite_color + " and your favorite animal is " + favorite_animal + ".")
+print("Your pirate name is " + piratename + ".")
