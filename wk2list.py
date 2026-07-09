@@ -7,7 +7,3 @@ elif age<20:
     print("we are sorry to infrom you that you are just a baby")
     print("Thank you for your time you can now have your leave now")
 
-
-    
-
-
