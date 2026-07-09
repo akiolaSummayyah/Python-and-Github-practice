@@ -1,3 +1,5 @@
 print("Hello there!")
 name=input("Enter your name:")
-print("Hello to You" + name)
+print("Hello to You"  + name)
+age=input("Enter your age:")
+print(f"You are {age} years old.")
