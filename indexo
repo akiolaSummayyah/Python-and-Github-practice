@@ -1,0 +1,14 @@
+
+Me="I am learning python\
+      I am the best"
+print(Me)
+#String manipulation
+print(len(Me))
+number_of_char=len(Me)
+print(number_of_char)
+print(Me.title())
+print(Me.replace("am","Summayahh"))
+print(Me.index("s"))
+print(Me.count("e"))
+print(Me.find("m"))
+print(concatenate())
