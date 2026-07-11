@@ -5,6 +5,8 @@ age=input("Enter your age:")
 print("You are " + age + " years old.")
 favorite_color=input("Enter your favorite color:")
 favorite_animal=input("Enter your favorite animal:")
-piratename=" Miss fearless" + favorite_color + " " + favorite_animal
+piratename=" Miss fearless " + favorite_color + " " + favorite_animal
 print("Your favorite color is " + favorite_color + " and your favorite animal is " + favorite_animal + ".")
 print("Your pirate name is " + piratename + ".")
+amount_of_gold_coins=input("Enter the amount of gold coins you have:")
+print("You have " + amount_of_gold_coins + " gold coins.")
