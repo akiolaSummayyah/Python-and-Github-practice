@@ -29,6 +29,9 @@ word=input("Enter a word:")
 print(word * 5)
 Inventory=["Sword", "Compass", "Map", "Key", "Lantern"]
 print(Inventory)
+total_number_of_items=len(Inventory)
+print("Total items in inventory:", total_number_of_items)
+
 
     
 
