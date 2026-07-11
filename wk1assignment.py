@@ -36,9 +36,8 @@ if age >=18:
     print("Entry Allowed")
 else:
     print("Entry Denied")
-    gold_coins = float(input("Enter gold coins: "))
-silver_coins = float(input("Enter silver coins: "))
-
+    gold_coins = float(input("Enter numbers of gold coins: "))
+silver_coins = float(input("Enter numbers of silver coins: "))
 total = gold_coins + silver_coins
 difference = gold_coins - silver_coins
 product = gold_coins * silver_coins
