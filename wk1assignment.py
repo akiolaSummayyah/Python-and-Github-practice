@@ -10,3 +10,13 @@ print("Your favorite color is " + favorite_color + " and your favorite animal is
 print("Your pirate name is " + piratename + ".")
 amount_of_gold_coins=input("Enter the amount of gold coins you have:")
 print("You have " + amount_of_gold_coins + " gold coins.")
+number_of_pirates_in_crew=input("Enter the number of pirates in crew:")
+number_of_pirates_in_crew=int(number_of_pirates_in_crew)
+amount_of_gold_coins=int(amount_of_gold_coins)
+print("Each pirate will get " + str(amount_of_gold_coins // number_of_pirates_in_crew) + " gold coins.")
+if amount_of_gold_coins // number_of_pirates_in_crew >= 15:
+    print("Everyone is happy!")
+else:
+    print("Some of the pirates are unhappy!")
+    
+
