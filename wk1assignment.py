@@ -18,5 +18,14 @@ if amount_of_gold_coins // number_of_pirates_in_crew >= 15:
     print("Everyone is happy!")
 else:
     print("Some of the pirates are unhappy!")
-    
+secret_number = 7
+guess = input("Guess the secret number: ")
+
+if int(guess) == secret_number:
+    print("Nice! You did great")
+else:
+    print("Nahh! Nice try buddy but you are Wrong!")
+   
+
+
 
