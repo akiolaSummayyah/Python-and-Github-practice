@@ -25,6 +25,9 @@ if int(guess) == secret_number:
     print("Nice! You did great")
 else:
     print("Nahh! Nice try buddy but you are Wrong!")
+word=input("Enter a word:")
+print(word * 5)
+ 
    
 
 

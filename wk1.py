@@ -19,4 +19,5 @@ elif operation=="sqrt":
 else:
     print("Invalid operation!")
 print("Answer:", result)
-  
+word=input("Enter a word:")
+print(word * 5)
