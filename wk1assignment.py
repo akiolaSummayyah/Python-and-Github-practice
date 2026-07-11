@@ -31,6 +31,11 @@ Inventory=["Sword", "Compass", "Map", "Key", "Lantern"]
 print(Inventory)
 total_number_of_items=len(Inventory)
 print("Total items in inventory:", total_number_of_items)
+age=int(input("Enter your age:"))
+if age >=18:
+    print("Entry Allowed")
+else:
+    print("Entry Denied")
 
 
     
