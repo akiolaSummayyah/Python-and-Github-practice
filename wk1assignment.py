@@ -27,9 +27,10 @@ else:
     print("Nahh! Nice try buddy but you are Wrong!")
 word=input("Enter a word:")
 print(word * 5)
-Eventory=["Sword", "Compass", "Map", "Key", "Lantern"]
-print("Eventory")
-   
+Inventory=["Sword", "Compass", "Map", "Key", "Lantern"]
+print(Inventory)
+
+    
 
 
 
