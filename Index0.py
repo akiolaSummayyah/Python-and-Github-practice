@@ -1,10 +1,5 @@
-euros=300
-xchng=2
-dollars=round(euros*xchng,2)
-print()
-print("Euros=",euros)
-print("Exchange Rate=",xchng)
-print("Dollars=",dollars)
+for number in range(5):
+    print("Car")   
 
 
 
